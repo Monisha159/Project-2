@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Java Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome!</h1>
+        <form action="welcome.jsp" method="post">
+            <label for="username">Enter your name:</label><br>
+            <input type="text" name="username" id="username" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
